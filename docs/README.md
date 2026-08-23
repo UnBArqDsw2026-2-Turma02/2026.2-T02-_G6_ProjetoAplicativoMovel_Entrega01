@@ -21,8 +21,8 @@ Demais diretrizes constam no Moodle.
 |Matrícula | Aluno |
 | -- | -- |
 | 23/2024527  |  [Artur Alves Fernandes](https://github.com/arturalvesfn) |
-| 23/2046050  |  [Beatriz Figueiredo dos Santos](https://github.com/edso-n) |
-| 23/2025730  |  [Edson Pereira Roldão Filho](https://github.com/BeatrizSants) |
+| 23/2046050  |  [Beatriz Figueiredo dos Santos](https://github.com/BeatrizSants) |
+| 23/2025730  |  [Edson Pereira Roldão Filho](https://github.com/edso-n) |
 | 23/1026311  |  [Eduardo Oliveira Valadares](https://github.com/EduOValadares) |
 | 23/1012100  |  [Felipe Henrique Oliveira Sousa](https://github.com/fhenrique77) |
 | 23/2021786 |  [Lara Souza Mota](https://github.com/mel14-hub) |
