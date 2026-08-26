@@ -1,16 +1,3 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_01)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2026.2(T02)_G1_ProjetoComercioEletronico_Entrega_01*. !!** 
- 
- (Apague esses comentários)
-
 # Nome do Projeto
 
 **Código da Disciplina**: FGA0208<br>
@@ -40,7 +27,7 @@ Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 
 ( ) SIM
 
-( ) NÃO
+(X) NÃO
 
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
 
