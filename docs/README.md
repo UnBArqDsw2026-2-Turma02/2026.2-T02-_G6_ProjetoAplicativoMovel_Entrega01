@@ -1,17 +1,4 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_01)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2026.2(T02)_G1_ProjetoComercioEletronico_Entrega_01*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+# Dirigindo meu Carro
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 06<br>
@@ -31,7 +18,7 @@ Demais diretrizes constam no Moodle.
 | 23/2007016  |  [Yuri Souza de Andrade Castro Silva](https://github.com/y123yuri) |
 
 ## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+Este repositório documenta o projeto de engenharia reversa realizado no aplicativo oficial do DETRAN-DF. Desenvolvido como objeto de estudo prático para a disciplina de Arquitetura de Software, o trabalho busca analisar e compreender a estrutura, o comportamento e as decisões de design de uma aplicação governamental de amplo uso.
 
 ## Screenshots da Primeira Entrega
 Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
@@ -40,9 +27,7 @@ Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 
 ( ) SIM
 
-( ) NÃO
-
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
+(X) NÃO
 
 ## Informações Complementares 
 Quaisquer outras informações adicionais podem ser descritas nessa seção.
