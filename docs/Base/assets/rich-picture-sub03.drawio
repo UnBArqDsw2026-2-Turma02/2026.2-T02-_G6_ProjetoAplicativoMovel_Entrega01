@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" modified="2026-08-27T14:00:00.000Z" agent="SubEquipe_03" version="24.0.0">
+  <diagram id="RichPicture_CNH" name="Rich Picture">
+    <mxGraphModel dx="1400" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="titulo" value="Rich Picture — Ciclo de vida da CNH no aplicativo de documentos digitais de trânsito" style="text;html=1;align=center;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="840" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="condutor" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="condutorLbl" value="CONDUTOR" style="text;html=1;align=center;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="515" width="130" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="app" value="APLICATIVO&#xa;(documento digital&#xa;no celular)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="200" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="orgao" value="ÓRGÃO DE TRÂNSITO&#xa;(bases nacionais e&#xa;Detran da UF)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="410" width="200" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="agente" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="710" y="760" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="agenteLbl" value="AGENTE&#xa;FISCALIZADOR" style="text;html=1;align=center;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="855" width="150" height="34" as="geometry" />
+        </mxCell>
+
+        <mxCell id="r1" value="usa / consulta" style="endArrow=classic;html=1;strokeColor=#333333;fontSize=11;" edge="1" parent="1" source="condutor" target="app">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="valida contra as bases" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#333333;fontSize=11;" edge="1" parent="1" source="app" target="orgao">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="apresenta o documento" style="endArrow=classic;html=1;strokeColor=#333333;fontSize=11;" edge="1" parent="1" source="app" target="agente">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="encaminha C, D, E&#xa;ao atendimento presencial" style="endArrow=classic;html=1;dashed=1;strokeColor=#d79b00;fontSize=11;" edge="1" parent="1" source="orgao" target="condutor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="760" y="240" /></Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="t1" value="&quot;por que meus dados&#xa;aparecem escondidos numa&#xa;tela e abertos na outra?&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t1b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t1c" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="215" y="375" width="12" height="12" as="geometry" />
+        </mxCell>
+
+        <mxCell id="t2" value="&quot;preciso decorar mais uma&#xa;senha só para remover&#xa;o documento&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t2b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="235" y="580" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2c" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="245" y="550" width="12" height="12" as="geometry" />
+        </mxCell>
+
+        <mxCell id="t3" value="&quot;o documento no celular&#xa;está atualizado?&#xa;e se estiver sem internet?&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t3b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t3c" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="740" y="378" width="12" height="12" as="geometry" />
+        </mxCell>
+
+        <mxCell id="t4" value="&quot;como sei que este&#xa;documento é autêntico?&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="900" y="740" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t4b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="850" y="800" width="20" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="t5" value="&quot;a categoria que eu quero&#xa;não aparece — tenho que&#xa;ir ao Detran?&quot;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="180" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t5b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="340" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5c" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="378" width="12" height="12" as="geometry" />
+        </mxCell>
+
+        <mxCell id="areaB" value="ÁREA RESERVADA — [COLEGA B]&#xa;&#xa;Adicionar aqui os atores e as tensões&#xa;observadas nos seus subfluxos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;fontSize=12;fontColor=#999999;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="600" width="320" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="areaC" value="ÁREA RESERVADA — [COLEGA C]&#xa;&#xa;Adicionar aqui os atores e as tensões&#xa;observadas nos seus subfluxos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;fontSize=12;fontColor=#999999;verticalAlign=top;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="380" y="880" width="320" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nota" value="Artefato elaborado segundo a abordagem de Rich Picture (CHECKLAND, 1981; MONK; HOWARD, 1998).&#xa;Representa a situação e as tensões entre os envolvidos, e não a sequência do processo — esta é&#xa;representada no modelo BPMN. As tensões registradas decorrem da observação direta da aplicação." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#cccccc;align=left;fontSize=11;spacing=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="520" height="90" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
