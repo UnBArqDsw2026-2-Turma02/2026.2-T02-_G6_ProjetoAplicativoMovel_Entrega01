@@ -18,7 +18,7 @@
 | 23/2007016  |  [Yuri Souza de Andrade Castro Silva](https://github.com/y123yuri) |
 
 ## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+Este repositório documenta o projeto de engenharia reversa realizado no aplicativo oficial do DETRAN-DF. Desenvolvido como objeto de estudo prático para a disciplina de Arquitetura de Software, o trabalho busca analisar e compreender a estrutura, o comportamento e as decisões de design de uma aplicação governamental de amplo uso.
 
 ## Screenshots da Primeira Entrega
 Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
@@ -28,8 +28,6 @@ Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 ( ) SIM
 
 (X) NÃO
-
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
 
 ## Informações Complementares 
 Quaisquer outras informações adicionais podem ser descritas nessa seção.
