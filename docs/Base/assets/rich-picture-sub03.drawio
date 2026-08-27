@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="SubEquipe_03" pages="6">
   <diagram id="RichPicture_CNH" name="Rich Picture">
-    <mxGraphModel dx="2021" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="24000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="885" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="24000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="t2c" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="12" width="12" x="245" y="550" as="geometry" />
-        </mxCell>
-        <mxCell id="-7lqKLs6-6oAU36f4pN7-1" parent="1" style="text;html=1;align=center;fontSize=16;fontStyle=1;" value="Rich Picture — Ciclo de vida da CNH no aplicativo de documentos digitais de trânsito" vertex="1">
-          <mxGeometry height="30" width="840" x="2441" y="409" as="geometry" />
         </mxCell>
         <mxCell id="-7lqKLs6-6oAU36f4pN7-2" parent="1" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="90" width="70" x="2241" y="809" as="geometry" />
@@ -81,7 +78,7 @@
           <mxGeometry height="20" width="20" x="2911" y="1189" as="geometry" />
         </mxCell>
         <mxCell id="-7lqKLs6-6oAU36f4pN7-23" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;a categoria que eu quero&#xa;não aparece — tenho que&#xa;ir ao Detran?&quot;" vertex="1">
-          <mxGeometry height="140" width="260" x="3281" y="569" as="geometry" />
+          <mxGeometry height="140" width="260" x="3293" y="584" as="geometry" />
         </mxCell>
         <mxCell id="-7lqKLs6-6oAU36f4pN7-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="20" width="20" x="3351" y="729" as="geometry" />
@@ -89,14 +86,109 @@
         <mxCell id="-7lqKLs6-6oAU36f4pN7-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="12" width="12" x="3336" y="767" as="geometry" />
         </mxCell>
-        <mxCell id="-7lqKLs6-6oAU36f4pN7-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;fontSize=12;fontColor=#999999;verticalAlign=top;spacing=12;" value="=-" vertex="1">
-          <mxGeometry height="180" width="320" x="3221" y="989" as="geometry" />
-        </mxCell>
         <mxCell id="-7lqKLs6-6oAU36f4pN7-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b3b3b3;dashed=1;fontSize=12;fontColor=#999999;verticalAlign=top;spacing=12;" value="ÁREA RESERVADA — [COLEGA C]&#xa;&#xa;Adicionar aqui os atores e as tensões&#xa;observadas nos seus subfluxos" vertex="1">
           <mxGeometry height="100" width="320" x="2441" y="1269" as="geometry" />
         </mxCell>
         <mxCell id="-7lqKLs6-6oAU36f4pN7-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#cccccc;align=left;fontSize=11;spacing=10;verticalAlign=top;" value="Artefato elaborado segundo a abordagem de Rich Picture (CHECKLAND, 1981; MONK; HOWARD, 1998).&#xa;Representa a situação e as tensões entre os envolvidos, e não a sequência do processo — esta é&#xa;representada no modelo BPMN. As tensões registradas decorrem da observação direta da aplicação." vertex="1">
           <mxGeometry height="90" width="520" x="2181" y="1269" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="&lt;b&gt;Pagamento da taxa&amp;nbsp;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="3541" y="1129" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-6" edge="1" parent="1" style="endArrow=classic;html=1;dashed=1;strokeColor=#d79b00;fontSize=11;" target="-7lqKLs6-6oAU36f4pN7-4" value="encaminha C, D, E&#xa;ao atendimento presencial">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3548.24" y="1163.1" />
+              <mxPoint x="3495.45" y="1144.8400000000001" />
+            </Array>
+            <mxPoint x="3517.79" y="1144.8400000000001" as="sourcePoint" />
+            <mxPoint x="3272" y="1243.15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-7" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;perdi a carteira,&amp;nbsp; vai custa e demorar&lt;/font&gt;&lt;/b&gt;?&quot;" vertex="1">
+          <mxGeometry height="161" width="320" x="3493" y="868" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="3.5 2ª VIA DE CNH&lt;br/&gt;Perda, roubo ou dan" vertex="1">
+          <mxGeometry height="110" width="200" x="3553" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="4020" y="1127" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-19" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontSize=11;entryX=0.011;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" target="8y4sQriSAnIMOVpEA7Jn-8" value="usa / consulta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2897" y="874" as="sourcePoint" />
+            <mxPoint x="3287" y="874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-20" connectable="0" parent="8y4sQriSAnIMOVpEA7Jn-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="tSolicitação 2a via" vertex="1">
+          <mxGeometry relative="1" x="0.5746" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="3.4 CONSULTAR CNH&lt;br/&gt;Pontos, restrições, bloqueios" vertex="1">
+          <mxGeometry height="110" width="200" x="3567" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-23" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3321" y="904" as="sourcePoint" />
+            <mxPoint x="3371" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-25" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3321" y="904" as="sourcePoint" />
+            <mxPoint x="3371" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-26" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3321" y="904" as="sourcePoint" />
+            <mxPoint x="3371" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-27" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3321" y="904" as="sourcePoint" />
+            <mxPoint x="3371" y="854" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-29" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#333333;fontSize=11;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8y4sQriSAnIMOVpEA7Jn-22" value="Consulta de pontuação">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2881" y="800.07" as="sourcePoint" />
+            <mxPoint x="3547.6" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3648" y="1094.17" />
+              <mxPoint x="3649" y="1094.17" />
+            </Array>
+            <mxPoint x="3648" y="1021" as="sourcePoint" />
+            <mxPoint x="3649" y="1129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-36" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.55;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3644" y="792.17" />
+              <mxPoint x="3645" y="792.17" />
+            </Array>
+            <mxPoint x="3644" y="776" as="sourcePoint" />
+            <mxPoint x="3645" y="884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-38" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot; Sera que&amp;nbsp; já perdi pontos demais?&quot;" vertex="1">
+          <mxGeometry height="140" width="260" x="3547" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-39" parent="1" style="text;html=1;align=center;fontSize=16;fontStyle=1;" value="Rich Picture — Ciclo de vida da CNH no aplicativo de documentos digitais de trânsito" vertex="1">
+          <mxGeometry height="30" width="840" x="2361" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="3688" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="8y4sQriSAnIMOVpEA7Jn-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="3684" y="415" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
