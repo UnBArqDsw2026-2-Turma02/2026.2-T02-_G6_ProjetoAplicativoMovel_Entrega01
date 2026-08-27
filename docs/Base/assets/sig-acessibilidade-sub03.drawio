@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="SubEquipe_03">
   <diagram id="SIG_Acessibilidade" name="SIG Acessibilidade">
-    <mxGraphModel dx="2812" dy="1492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="937" dy="497" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,7 +124,7 @@
         <mxCell id="diZ2BS7Q0_K0HtA2ltyG-21" edge="1" parent="1" source="diZ2BS7Q0_K0HtA2ltyG-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" target="diZ2BS7Q0_K0HtA2ltyG-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="diZ2BS7Q0_K0HtA2ltyG-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Clareza da linguagem e dos termos" vertex="1">
+        <mxCell id="diZ2BS7Q0_K0HtA2ltyG-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Orientação do usuário no fluxo da tarefa" vertex="1">
           <mxGeometry height="60" width="180" x="1674" y="371" as="geometry" />
         </mxCell>
         <mxCell id="diZ2BS7Q0_K0HtA2ltyG-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=2;" value="AND" vertex="1">
@@ -136,7 +136,7 @@
         <mxCell id="diZ2BS7Q0_K0HtA2ltyG-14" edge="1" parent="1" source="diZ2BS7Q0_K0HtA2ltyG-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" target="diZ2BS7Q0_K0HtA2ltyG-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="diZ2BS7Q0_K0HtA2ltyG-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Orientação do usuário no fluxo da tarefa" vertex="1">
+        <mxCell id="diZ2BS7Q0_K0HtA2ltyG-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" value="Clareza da linguagem e dos termos" vertex="1">
           <mxGeometry height="60" width="180" x="1941" y="371" as="geometry" />
         </mxCell>
         <mxCell id="diZ2BS7Q0_K0HtA2ltyG-10" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Utilizar linguagem simples em 100% dos textos" vertex="1">
