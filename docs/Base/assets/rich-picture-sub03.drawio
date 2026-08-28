@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="57Z9p7ptDSBFfLlFlVB2">
+    <mxGraphModel dx="2812" dy="1492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-1" parent="1" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="90" width="70" x="697" y="607" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-2" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;" value="CONDUTOR" vertex="1">
+          <mxGeometry height="20" width="130" x="667" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;arcSize=20;" value="APLICATIVO&#xa;(documento digital&#xa;no celular)" vertex="1">
+          <mxGeometry height="110" width="200" x="1157" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="ÓRGÃO DE TRÂNSITO&#xa;(bases nacionais e&#xa;Detran da UF)" vertex="1">
+          <mxGeometry height="110" width="200" x="945" y="872" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-5" parent="1" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="90" width="70" x="1227" y="947" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-6" parent="1" style="text;html=1;align=center;fontSize=13;fontStyle=1;" value="AGENTE&#xa;FISCALIZADOR" vertex="1">
+          <mxGeometry height="34" width="150" x="1187" y="1042" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-7" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-1" style="endArrow=classic;html=1;strokeColor=#333333;fontSize=11;" target="9iZcVH73vgLhHqsV-AA_-3" value="usa / consulta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-8" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-3" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#333333;fontSize=11;" target="9iZcVH73vgLhHqsV-AA_-4" value="valida contra as bases">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-9" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-3" style="endArrow=classic;html=1;strokeColor=#333333;fontSize=11;" target="9iZcVH73vgLhHqsV-AA_-5" value="apresenta o documento">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-10" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-41" style="endArrow=classic;html=1;dashed=1;strokeColor=#d79b00;fontSize=11;" target="9iZcVH73vgLhHqsV-AA_-1" value="encaminha C, D, E&#xa;ao atendimento presencial">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-11" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;por que meus dados&#xa;aparecem escondidos numa&#xa;tela e abertos na outra?&quot;" vertex="1">
+          <mxGeometry height="140" width="260" x="637" y="367" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="747" y="527" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="732" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-14" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;preciso decorar mais uma&#xa;senha só para remover&#xa;o documento&quot;" vertex="1">
+          <mxGeometry height="140" width="260" x="637" y="787" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="752" y="767" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="762" y="737" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1247" y="527" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="1257" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-19" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;como sei que este&#xa;documento é autêntico?&quot;" vertex="1">
+          <mxGeometry height="130" width="240" x="1331" y="993" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1367" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-21" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;a categoria que eu quero&lt;br&gt;não aparece, tenho que&lt;br&gt;ir ao Detran?&quot;" vertex="1">
+          <mxGeometry height="140" width="260" x="1592" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1631" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="1614" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f9f9;strokeColor=#cccccc;align=left;fontSize=11;spacing=10;verticalAlign=top;" value="Artefato elaborado segundo a abordagem de Rich Picture (CHECKLAND, 1981; MONK; HOWARD, 1998).&#xa;Representa a situação e as tensões entre os envolvidos, e não a sequência do processo — esta é&#xa;representada no modelo BPMN. As tensões registradas decorrem da observação direta da aplicação." vertex="1">
+          <mxGeometry height="90" width="520" x="637" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-54" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" target="9iZcVH73vgLhHqsV-AA_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="&lt;b&gt;Pagamento da taxa&amp;nbsp;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="1809" y="993" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-28" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&quot;perdi a carteira, quanto vai custa e demorar&lt;/font&gt;?&quot;" vertex="1">
+          <mxGeometry height="161" width="320" x="1773" y="733" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-55" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9iZcVH73vgLhHqsV-AA_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="3.5 2ª VIA DE CNH&lt;br&gt;Perda, roubo ou dano" vertex="1">
+          <mxGeometry height="110" width="200" x="1847" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-30" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#333333;fontSize=11;entryX=0.011;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;" target="9iZcVH73vgLhHqsV-AA_-29" value="usa / consulta">
+          <mxGeometry relative="1" x="-0.2131" y="38" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1353" y="672" as="sourcePoint" />
+            <mxPoint x="1743" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-31" connectable="0" parent="9iZcVH73vgLhHqsV-AA_-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Solicitação 2ª via" vertex="1">
+          <mxGeometry relative="1" x="0.5746" y="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=13;fontStyle=1;arcSize=20;" value="3.4 CONSULTAR CNH&lt;br/&gt;Pontos, restrições, bloqueios" vertex="1">
+          <mxGeometry height="110" width="200" x="1847" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-33" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#333333;fontSize=11;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="9iZcVH73vgLhHqsV-AA_-32" value="Consulta de pontuação">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1337" y="598.07" as="sourcePoint" />
+            <mxPoint x="2003.6" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-34" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9iZcVH73vgLhHqsV-AA_-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1928" y="886" as="sourcePoint" />
+            <mxPoint x="1929" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-36" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot; Sera que&amp;nbsp; já perdi pontos demais?&quot;" vertex="1">
+          <mxGeometry height="140" width="260" x="1827" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-37" parent="1" style="text;html=1;align=center;fontSize=16;fontStyle=1;" value="Rich Picture — Ciclo de vida da CNH no aplicativo de documentos digitais de trânsito" vertex="1">
+          <mxGeometry height="30" width="840" x="817" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="1968" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1964" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-40" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-4" style="endArrow=classic;html=1;dashed=1;strokeColor=#d79b00;fontSize=11;" target="9iZcVH73vgLhHqsV-AA_-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1657" y="605" as="sourcePoint" />
+            <mxPoint x="767" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-41" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;o documento no celular&#xa;está atualizado?&#xa;e se estiver sem internet?&quot;" vertex="1">
+          <mxGeometry height="140" width="260" x="1105" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-47" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767" y="682" as="sourcePoint" />
+            <mxPoint x="1157" y="682" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-48" connectable="0" parent="9iZcVH73vgLhHqsV-AA_-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="atualização automática&lt;div&gt;de status da CNH&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3962" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-43" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;será que serei avisado quando minha&lt;div&gt;&amp;nbsp;CNH virar definitiva?&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="260" x="346" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="589" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="625" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-50" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.915;exitY=0.85;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitPerimeter=0;" target="9iZcVH73vgLhHqsV-AA_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-51" connectable="0" parent="9iZcVH73vgLhHqsV-AA_-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Notifica cassação de PPD" vertex="1">
+          <mxGeometry relative="1" x="-0.4931" as="geometry">
+            <mxPoint x="36" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-49" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;e se eu cometer uma infração,&lt;div&gt;&amp;nbsp;volto a fazer tudo do zero?&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="260" x="371" y="591" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="639" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="664" y="641" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-60" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="12" width="12" x="1342" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-63" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="&quot;consigo emitir um Vale Carta para quando não tiver acesso a minha CNH?&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="140" width="260" x="340" y="749" as="geometry" />
+        </mxCell>
+        <mxCell id="9iZcVH73vgLhHqsV-AA_-64" edge="1" parent="1" source="9iZcVH73vgLhHqsV-AA_-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" target="9iZcVH73vgLhHqsV-AA_-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

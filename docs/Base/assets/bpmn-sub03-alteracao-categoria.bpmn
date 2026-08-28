@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  id="Definitions_CNH_AlteracaoCategoria"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_1">
+    <bpmn:participant id="Participant_1" name="Alteração de Categoria da CNH" processRef="Process_1" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_1">
+      <bpmn:lane id="Lane_Condutor" name="Condutor">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Acessar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Selecionar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_Categoria</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Confirmar</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Sistema" name="Sistema (CNH do Brasil)">
+        <bpmn:flowNodeRef>Task_Consultar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Orientar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndEvent_Detran</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Registrar</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndEvent_Registrada</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1" name="Condutor deseja alterar categoria">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_Acessar" name="Acessar Serviços para CNH">
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_Selecionar" name="Selecionar Alteração de Categoria">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_Consultar" name="Consultar categoria atual e filtrar opções compatíveis">
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_Categoria" name="Categoria desejada é C, D ou E?">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_Confirmar" name="Selecionar nova categoria e confirmar">
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_8</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_Orientar" name="Orientar a procurar o Detran da UF">
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="EndEvent_Detran" name="Fluxo encerrado no aplicativo">
+      <bpmn:incoming>Flow_7</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="Task_Registrar" name="Registrar solicitação (não observado)">
+      <bpmn:incoming>Flow_8</bpmn:incoming>
+      <bpmn:outgoing>Flow_9</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:endEvent id="EndEvent_Registrada" name="Solicitação registrada">
+      <bpmn:incoming>Flow_9</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent_1" targetRef="Task_Acessar" />
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_Acessar" targetRef="Task_Selecionar" />
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_Selecionar" targetRef="Task_Consultar" />
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_Consultar" targetRef="Gateway_Categoria" />
+    <bpmn:sequenceFlow id="Flow_5" name="não" sourceRef="Gateway_Categoria" targetRef="Task_Confirmar" />
+    <bpmn:sequenceFlow id="Flow_6" name="sim" sourceRef="Gateway_Categoria" targetRef="Task_Orientar" />
+    <bpmn:sequenceFlow id="Flow_7" sourceRef="Task_Orientar" targetRef="EndEvent_Detran" />
+    <bpmn:sequenceFlow id="Flow_8" sourceRef="Task_Confirmar" targetRef="Task_Registrar" />
+    <bpmn:sequenceFlow id="Flow_9" sourceRef="Task_Registrar" targetRef="EndEvent_Registrada" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1">
+      <bpmndi:BPMNShape id="Participant_1_di" bpmnElement="Participant_1" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1010" height="400" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Condutor_di" bpmnElement="Lane_Condutor" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="980" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Sistema_di" bpmnElement="Lane_Sistema" isHorizontal="true">
+        <dc:Bounds x="190" y="280" width="980" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="232" y="162" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="215" y="205" width="72" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Acessar_di" bpmnElement="Task_Acessar">
+        <dc:Bounds x="320" y="140" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Selecionar_di" bpmnElement="Task_Selecionar">
+        <dc:Bounds x="470" y="140" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Categoria_di" bpmnElement="Gateway_Categoria" isMarkerVisible="true">
+        <dc:Bounds x="640" y="155" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="620" y="112" width="90" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Confirmar_di" bpmnElement="Task_Confirmar">
+        <dc:Bounds x="750" y="140" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Consultar_di" bpmnElement="Task_Consultar">
+        <dc:Bounds x="470" y="300" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Orientar_di" bpmnElement="Task_Orientar">
+        <dc:Bounds x="700" y="390" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_Detran_di" bpmnElement="EndEvent_Detran">
+        <dc:Bounds x="862" y="412" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="845" y="455" width="72" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Registrar_di" bpmnElement="Task_Registrar">
+        <dc:Bounds x="900" y="300" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_Registrada_di" bpmnElement="EndEvent_Registrada">
+        <dc:Bounds x="1072" y="322" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1055" y="365" width="72" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1_di" bpmnElement="Flow_1">
+        <di:waypoint x="268" y="180" />
+        <di:waypoint x="320" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2">
+        <di:waypoint x="430" y="180" />
+        <di:waypoint x="470" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_3_di" bpmnElement="Flow_3">
+        <di:waypoint x="525" y="220" />
+        <di:waypoint x="525" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_4_di" bpmnElement="Flow_4">
+        <di:waypoint x="580" y="340" />
+        <di:waypoint x="612" y="340" />
+        <di:waypoint x="612" y="180" />
+        <di:waypoint x="640" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_5_di" bpmnElement="Flow_5">
+        <di:waypoint x="690" y="180" />
+        <di:waypoint x="750" y="180" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="708" y="158" width="24" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_6_di" bpmnElement="Flow_6">
+        <di:waypoint x="665" y="205" />
+        <di:waypoint x="665" y="430" />
+        <di:waypoint x="700" y="430" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="672" y="300" width="24" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_7_di" bpmnElement="Flow_7">
+        <di:waypoint x="810" y="430" />
+        <di:waypoint x="862" y="430" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_8_di" bpmnElement="Flow_8">
+        <di:waypoint x="860" y="180" />
+        <di:waypoint x="955" y="180" />
+        <di:waypoint x="955" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_9_di" bpmnElement="Flow_9">
+        <di:waypoint x="1010" y="340" />
+        <di:waypoint x="1072" y="340" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
