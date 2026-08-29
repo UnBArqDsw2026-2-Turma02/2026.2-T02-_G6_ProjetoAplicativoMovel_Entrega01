@@ -21,7 +21,11 @@
 Este repositório documenta o projeto de engenharia reversa realizado no aplicativo oficial do DETRAN-DF. Desenvolvido como objeto de estudo prático para a disciplina de Arquitetura de Software, o trabalho busca analisar e compreender a estrutura, o comportamento e as decisões de design de uma aplicação governamental de amplo uso.
 
 ## Screenshots da Primeira Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+### NFR Framework
+![NFR Framework](./Base/Relatorios/1.1.1.SubEquipe_01/imagens/sig/nfr_framework_manual.png)
+
+### BPMN da CNH definitiva
+![BPMN da CNH definitiva](./Base/assets/bpmn-sub03-3-6.svg)
 
 ## Há algo a ser executado?
 
@@ -37,4 +41,5 @@ Quaisquer outras informações adicionais podem ser descritas nessa seção.
 | Versão |    Data    | Alterações                           | Autor |
 | :----: | :--------: | ------------------------------------ | ----- |
 |  1.0 | 23/08/2026 | Criação do esqueleto inicial a partir do template da disciplina| [Edson](https://github.com/edso-n)|
+| 1.1 | 28/08/2026 | Adição das 2 imagens da 1° entrega | [Matheus Pinheiro](https://github.com/matheus-06) |
 
